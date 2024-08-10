@@ -1,0 +1,261 @@
+.homepage {
+	width: 100%;
+	padding: 44px 20px 90px;
+	box-sizing: border-box;
+}
+
+
+.fs-20 {
+	font-size: 20px;
+}
+
+.transaction {
+	position: relative;
+	width: 100%;
+	height: 177.5px;
+	background: #262626;
+	border-radius: 20px;
+	margin: 17px 0;
+	padding: 25px 0 0 25px;
+	font-size: 12px;
+}
+
+.transImg {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 204.5px;
+	height: 133px;
+}
+
+.fs-24 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.transaction .btn {
+	width: 79.5px;
+	height: 30px;
+	background: #ec502c;
+	border-radius: 15px;
+	justify-content: center;
+	margin-top: 45px;
+}
+
+.menuWrap .flex1 {
+	width: 102px;
+	height: 104.5px;
+	background: rgba(255, 255, 255, 0.03);
+	border: 0.5px solid #343434;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	font-size: 13px;
+}
+
+.menuWrap img {
+	width: 31.5px;
+	height: 31.5px;
+}
+
+.transferWrap {
+	position: relative;
+	width: 332.5px;
+	height: 49px;
+	background: #ec502c;
+	border-radius: 15px;
+	margin-top: 21px;
+	padding: 0 22px 0 89px;
+	font-size: 15px;
+}
+
+.transferWrap img {
+	position: absolute;
+	top: 2.5px;
+	left: 15px;
+	width: 64px;
+	height: 66.5px;
+}
+
+.transferWrap .btn {
+	width: 60px;
+	height: 21px;
+	background: #1d1d1d;
+	border-radius: 10.5px;
+	justify-content: center;
+	font-size: 11px;
+}
+
+.linkWallet {
+	width: 332.5px;
+	height: 47.5px;
+	border: 0.5px dashed #ffffff;
+	border-radius: 15px;
+	margin-top: 77px;
+	justify-content: center;
+}
+
+.linkWallet img {
+	width: 17.5px;
+	height: 16.5px;
+	margin-right: 8.5px;
+	font-size: 12px;
+}
+
+.MyModal {
+	position: relative;
+	width: 17.125rem;
+	height: 480px;
+	background: #161616;
+	border-radius: 20px;
+	padding: 38px 31px 57px;
+	align-items: center;
+	font-size: 15px;
+	animation-name: zoom;
+	animation-duration: .3s;
+	transition: all .3s;
+}
+
+.MyModal .close {
+	position: absolute;
+	top: 11px;
+	right: 11px;
+	width: 17.5px;
+	height: 17.5px;
+}
+
+.MyModal .fs-12 {
+	color: #888;
+}
+
+.MyModal .qrcode {
+	width: 100%;
+	height: 191.5px;
+	background: #ffffff;
+	border-radius: 20px;
+	margin: 17px 0 38px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.MyModal .flex1 {
+	align-items: center;
+	justify-tracks: space-between;
+}
+
+.MyModal .flex {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.MyModal .flex span {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.MyModal .flex img {
+	width: 36.5px;
+	height: 36px;
+	margin-bottom: 8px;
+
+}
+
+.modal1 {
+	
+	width: 274px;
+	height: 312.5px;
+	background: #161616;
+	border-radius: 20px;
+	font-size: 15px;
+	align-items: center;
+	justify-content: center;
+	nimation-name: zoom;
+	animation-duration: .3s;
+	transition: .2s;
+}
+
+.modal1 .flex {
+	font-size: 12px;
+	color: #888;
+	margin: 20px 0 12px;
+}
+
+.modal1 .flex .amount {
+	font-size: 30px;
+	color: #EC502C;
+	font-weight: bold;
+}
+
+.modal1 img {
+	width: 87px;
+	height: 96.5px;
+}
+
+.modal1 .btn {
+	width: 211px;
+	height: 39.5px;
+	background: #ec502c;
+	border-radius: 20px;
+	justify-content: center;
+	margin-top: 23px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.rightPopup {
+	justify-content: flex-end;
+}
+
+.moreModal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 194px;
+	height: 100vh;
+	background: #161616;
+	border-radius: 20px 20px 20px 0px;
+	align-items: center;
+	animation-name: toLeftAnimate;
+	animation-duration: .3s;
+	padding: 20px 11px;
+
+}
+
+.moreModal .bold {
+	font-size: 20px;
+}
+
+.moreModal .walletBtn {
+	width: 171.5px;
+	height: 34px;
+	background: #ec502c;
+	border-radius: 17px;
+	margin: 18px 0 21px;
+	justify-content: center;
+	gap: 9px;
+	font-size: 12px;
+}
+
+.moreModal .walletBtn img {
+	width: 9px;
+	height: 9px;
+}
+
+.moreModal .flex-bw {
+	width: 100%;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.moreModal .flex-bw img {
+	width: 13px;
+	height: 13px;
+}

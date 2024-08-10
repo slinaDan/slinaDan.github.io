@@ -1,13 +1,11 @@
 :root {
-  --tg-theme-bg-color: #efeff3;
-  --tg-theme-button-color: #63d0f9;
-  --tg-theme-button-text-color: black;
+  --tg-theme-bg-color:  #161616;
+  --tg-theme-color: #EC502C;
 }
 
 .App {
   height: 100vh;
-  background-color: var(--tg-theme-bg-color);
-  color: var(--tg-theme-text-color);
+  
 }
 
 .Container {

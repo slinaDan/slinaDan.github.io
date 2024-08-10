@@ -1,7 +1,9 @@
 import './App.css';
+import {HomePage} from './pages/homePage'
 import { TonConnectButton } from '@tonconnect/ui-react';
 import { useTonConnect } from './hooks/useTonConnect';
 import { useCounterContract } from './hooks/useCounterContract';
+import Modal from 'react-modal'; 
 import '@twa-dev/sdk';
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
 
   return (
     <div className='App'>
+	  <HomePage />
       <div className='Container'>
         <TonConnectButton />
 
@@ -35,5 +38,5 @@ function App() {
     </div>
   );
 }
-
+Modal.setAppElement('#root'); // 确保Modal在正确的DOM元素内渲染
 export default App
