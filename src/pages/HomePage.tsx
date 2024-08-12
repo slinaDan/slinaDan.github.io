@@ -1,8 +1,5 @@
 import '/src/style/homePage.css'
 import '/src/App.css';
-import { TonConnectButton } from '@tonconnect/ui-react';
-import { useTonConnect } from '/src/hooks/useTonConnect';
-import { useCounterContract } from '/src/hooks/useCounterContract';
 import { TopNav } from "/src/components/TopNav";
 import { Footer } from "/src/components/Footer";
 import { Tabbar } from "/src/components/Tabbar";
@@ -14,8 +11,6 @@ import '@twa-dev/sdk';
 Modal.setAppElement('#root'); // 确保Modal在正确的DOM元素内渲染 
 export function HomePage() {
 	 const [modalIsOpen, setIsOpen] = useState(false);  
-  const { connected } = useTonConnect();
-  const { value, address, sendIncrement } = useCounterContract();
     // let history = useHistory();
    // let navigate = useNavigate();  
  

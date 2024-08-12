@@ -1,16 +1,11 @@
 import '/src/style/homePage.css'
 import '/src/App.css';
-import { TonConnectButton } from '@tonconnect/ui-react';
-import { useTonConnect } from '/src/hooks/useTonConnect';
-import { useCounterContract } from '/src/hooks/useCounterContract';
 import { MoreModal } from "/src/components/MoreModal";
 import Modal from 'react-modal'; 
 import { useState   } from "react"
 import '@twa-dev/sdk';
 
 export function TopNav() {
-  const { connected } = useTonConnect();
-  const { value, address, sendIncrement } = useCounterContract();
    const [modalIsOpen, setIsOpen] = useState(false);  
 	function showMenu() {
 		setIsOpen(true)

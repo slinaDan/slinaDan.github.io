@@ -1,16 +1,9 @@
 import '/src/style/homePage.css'
 import '/src/App.css';
-import { TonConnectButton } from '@tonconnect/ui-react';
-import { useTonConnect } from '/src/hooks/useTonConnect';
-import { useCounterContract } from '/src/hooks/useCounterContract';
 import '@twa-dev/sdk';
 
 export function Footer() {
-  const { connected } = useTonConnect();
-  const { value, address, sendIncrement } = useCounterContract();
-	function toDeal() {
-		console.log('点击进入');
-	}
+	
   return (
   <div className="joinus">
   	<div className="fs-20">加入我们的社区</div>

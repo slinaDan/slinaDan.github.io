@@ -1,17 +1,10 @@
 import '/src/style/homePage.css'
 import '/src/App.css';
-import { TonConnectButton } from '@tonconnect/ui-react';
-import { useTonConnect } from '/src/hooks/useTonConnect';
-import { useCounterContract } from '/src/hooks/useCounterContract';
 import { TopNav } from "/src/components/TopNav";
 import '@twa-dev/sdk';
 
 export function HomePage() {
-  const { connected } = useTonConnect();
-  const { value, address, sendIncrement } = useCounterContract();
-	function toDeal() {
-		console.log('点击进入');
-	}
+	
   return (
     <div className='homepage'>
      <TopNav />
